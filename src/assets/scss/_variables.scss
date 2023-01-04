@@ -1,0 +1,9 @@
+@use "sass:color";
+
+@import "./colors";
+@import "./fonts";
+
+:root {
+  --app-main-color: #113e9f;
+  --app-secondary-color: #3083f7;
+}

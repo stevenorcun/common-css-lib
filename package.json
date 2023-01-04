@@ -1,0 +1,36 @@
+{
+  "name": "@stevenorcun/common-css-lib",
+  "version": "0.0.2",
+  "description": "Common css for all mfe project",
+  "main": "dist/index.scss",
+  "scripts": {
+    "build": "rimraf css && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-sass": "node-sass --output-style expanded ./src/index.scss ./dist/index.scss",
+    "build-autoprefix": "postcss --use autoprefixer --output ./dist/index.scss ./dist/index.scss",
+    "build-cleancss": "cleancss -o ./dist/index.min.scss ./dist/index.scss",
+    "git": "git add . && git commit --amend --no-edit && git push -f"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "library"
+  ],
+  "author": "Steven Orcun",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "clean-css-cli": "^5.6.1",
+    "node-sass": "^8.0.0",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.57.1"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/stevenorcun"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

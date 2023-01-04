@@ -1,0 +1,62 @@
+@use "sass:color";
+
+$color-darkblue: #113e9f;
+$color-darkblue90: rgba($color-darkblue, 9);
+$color-darkblue80: rgba($color-darkblue, 0.8);
+$color-darkblue70: rgba($color-darkblue, 0.7);
+$color-darkblue60: rgba($color-darkblue, 0.6);
+$color-darkblue50: rgba($color-darkblue, 0.5);
+$color-darkblue40: rgba($color-darkblue, 0.4);
+$color-darkblue30: rgba($color-darkblue, 0.3);
+$color-darkblue20: rgba($color-darkblue, 0.2);
+$color-darkblue10: rgba($color-darkblue, 0.1);
+$color-darkblue5: rgba($color-darkblue, 0.05);
+
+$color-blue: #3083f7;
+$color-blue90: rgba($color-blue, 9);
+$color-blue80: rgba($color-blue, 0.8);
+$color-blue70: rgba($color-blue, 0.7);
+$color-blue60: rgba($color-blue, 0.6);
+$color-blue50: rgba($color-blue, 0.5);
+$color-blue40: rgba($color-blue, 0.4);
+$color-blue30: rgba($color-blue, 0.3);
+$color-blue20: rgba($color-blue, 0.2);
+$color-blue10: rgba($color-blue, 0.1);
+$color-blue5: rgba($color-blue, 0.05);
+
+$color-grey: #4d5056;
+$color-grey90: rgba($color-grey, 9);
+$color-grey80: rgba($color-grey, 0.8);
+$color-grey70: rgba($color-grey, 0.7);
+$color-grey60: rgba($color-grey, 0.6);
+$color-grey50: rgba($color-grey, 0.5);
+$color-grey40: rgba($color-grey, 0.4);
+$color-grey30: rgba($color-grey, 0.3);
+$color-grey20: rgba($color-grey, 0.2);
+$color-grey10: rgba($color-grey, 0.1);
+$color-grey5: rgba($color-grey, 0.05);
+
+$color-rose: #f53e6a;
+$color-rose90: rgba($color-rose, 9);
+$color-rose80: rgba($color-rose, 0.8);
+$color-rose70: rgba($color-rose, 0.7);
+$color-rose60: rgba($color-rose, 0.6);
+$color-rose50: rgba($color-rose, 0.5);
+$color-rose40: rgba($color-rose, 0.4);
+$color-rose30: rgba($color-rose, 0.3);
+$color-rose20: rgba($color-rose, 0.2);
+$color-rose10: rgba($color-rose, 0.1);
+$color-rose5: rgba($color-rose, 0.05);
+
+$color-white: #fff;
+
+$color-grey-white: #f6f6f6;
+
+$color-black: #4d5056;
+$color-sublabel: #94969a;
+
+$color-divider-grey: #ededee;
+$color-border: #d2d3d4;
+$color-placeholder: #94969a;
+
+$color-label: #717378;
