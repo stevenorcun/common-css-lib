@@ -1,8 +1,5 @@
 The library is for all the common styles that will be used in all micro frontend projects.
 
-Inside the build folder there is all the compiled sass from the entry point "src/index.scss"
-To use this complied style (all the classes defined etc...) we just need to import it in others projects.
-
 Example of use:
 
 ```javascript
