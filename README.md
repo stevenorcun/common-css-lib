@@ -5,8 +5,9 @@ To use this complied style (all the classes defined etc...) we just need to impo
 
     Example of use:
 
-            ```npm
+            ```javascript
             - npm i @altnativ/common-styles
+            ```
 
         then inside the style.scss of the micro-frontend, just import the package (as the "main" value of the lib is "dist/index.scss" it will
         point to the compilied scss) :
