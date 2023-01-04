@@ -1,18 +1,8 @@
-The library is for all the common styles that will be used in all micro frontend projects.
+Sass library to share all common styles in all micro frontend projects.
 
 Example of use:
 
-```javascript
-npm i @altnativ/common-styles
-```
-
-Inside the the style.scss of the micro-frontend, import the package
-
-```scss
-@import "@altnativ/common-styles";
-```
-
-We can now use the classes defined in the index.scss
+To use this styles defined in the library :
 
 ```scss
 @import "./assets/scss/colors";
@@ -23,6 +13,18 @@ We can now use the classes defined in the index.scss
 .btn-danger {
   color: $color-rose;
 }
+```
+
+Fisrt install the lib :
+
+```javascript
+npm i @altnativ/common-styles
+```
+
+Inside the the style.scss of the micro-frontend, import the package :
+
+```scss
+@import "@altnativ/common-styles";
 ```
 
 App.tsx file of the micro-frontend we can use them :
