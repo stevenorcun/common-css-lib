@@ -1,6 +1,6 @@
 {
   "name": "@stevenorcun/common-css-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common css for all mfe project",
   "main": "dist/index.scss",
   "scripts": {
